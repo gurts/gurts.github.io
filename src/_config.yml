@@ -1,0 +1,13 @@
+# Site settings
+title: GURT
+email: gurt@gurt.gurt
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gurt.us" # the base hostname & protocol for your site
+twitter_username: gurts
+github_username:  gurts
+
+# Build settings
+markdown: kramdown
+source: .
+build: ../build
