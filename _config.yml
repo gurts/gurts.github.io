@@ -9,5 +9,5 @@ github_username:  gurts
 
 # Build settings
 markdown: kramdown
-source: .
-build: ../build
+source: ./src
+destination: ./build
