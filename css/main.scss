@@ -30,7 +30,7 @@ a {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: white;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.15);
   text-decoration: none;
 }
 
@@ -40,11 +40,11 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 15%;
+  text-align: center;
 
   span {
-    font-size: 1.25em;
-    line-height: 1.5em;
-    text-align: center;
+    font-size: 1.33em;
+    line-height: 1.67em;
   }
 }
 
