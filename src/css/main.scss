@@ -5,7 +5,19 @@
 
 @import 'reset';
 
-body {
+main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: {
+    image: url('/images/gurt.png');
+    position: 50% 50%;
+    repeat: no-repeat;
+    size: cover;
+  }
+  overflow: hidden;
 }
 
 img {
@@ -13,46 +25,37 @@ img {
   vertical-align: middle;
 }
 
-figure > img {
-  display: block;
+a {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
+.gurt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+
+  span {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-align: center;
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300;
-}
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 1.5em;
 
-code {
-  padding: 1px 5px;
-}
-
-pre {
-  padding: 8px 12px;
-  overflow-x: scroll;
-
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-%clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
+  a {
+    margin-right: 0.5em;
   }
 }
 
